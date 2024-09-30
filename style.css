@@ -1,12 +1,20 @@
-body{
-    background-color: rgb(28, 26, 26);
-    color:rgb(229, 232, 238));
-    margin: 0px;
-Header{border-bottom: solid 3px rgb(247, 244, 244);
+body{ background-color: rgb(28, 26, 26);
+    color:rgb(229, 232, 238);
+    margin: 0px;font-family:"Oswald",sans-serif }
+    
+Header{border-bottom: solid 3px rgb(168, 10, 10);
     padding:20px;
     font-size:35px;
     color: rgb(246, 242, 242);}
-    font-family: "Anton", sans-serif;
 .chamada{background-color: rgb(128,0,0);
     padding-bottom:25px;
     padding-top:5px;
+display:flex;
+justify-content: center;}
+.chamada-texto{margin-right:5%;}
+h1{font-size:40px;}
+p{font-size:25px;}
+.categoria-videos{
+  display:flex;
+  overflow-x:auto;
+  gap:15px;}
